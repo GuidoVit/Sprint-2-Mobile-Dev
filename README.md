@@ -1,13 +1,13 @@
 
 # Backend em Java com Spring Boot e H2 – Entrega 2
 
-## 🎯 Objetivo
+## Objetivo
 
 Construir um serviço REST que persista leituras de sensores em banco H2 (modo arquivo) e forneça endpoints consumidos por um aplicativo frontend.
 
 ---
 
-## 🛠️ Como compilar e executar
+## Como compilar e executar
 
 ```bash
 mvn spring-boot:run
@@ -20,7 +20,7 @@ http://localhost:8080
 
 ---
 
-## 🗂️ Localização do arquivo H2
+## Localização do arquivo H2
 
 Após rodar o projeto, o banco será criado em:
 
@@ -41,9 +41,9 @@ http://localhost:8080/h2-console
 
 ---
 
-## 🔗 Endpoints disponíveis
+## Endpoints disponíveis
 
-### ➕ Criar nova leitura
+### Criar nova leitura
 
 `POST /api/readings`
 
@@ -53,7 +53,7 @@ curl -X POST "http://localhost:8080/api/readings" -H "Content-Type: application/
 
 ---
 
-### 📋 Listar todas as leituras
+### Listar todas as leituras
 
 `GET /api/readings`
 
@@ -63,7 +63,7 @@ curl http://localhost:8080/api/readings
 
 ---
 
-### 🔍 Filtrar por sensorId
+### Filtrar por sensorId
 
 `GET /api/readings/{sensorId}`
 
@@ -73,7 +73,7 @@ curl http://localhost:8080/api/readings/sensor-123
 
 ---
 
-## 🌐 Integração com o Frontend
+## Integração com o Frontend
 
 - Base da API no app: `http://localhost:8080/api`
 - Para salvar leitura: `POST /api/readings`
@@ -81,9 +81,9 @@ curl http://localhost:8080/api/readings/sensor-123
 
 ---
 
-## 👥 Integrantes
+## Integrantes
 
-- **Nome:** [Seu Nome Aqui]  
-- **RM:** [Seu RM Aqui]
-
-> Substitua com seus dados antes de entregar.
+- Arthur Colombo Cordeiro RM 551262
+- João Felipe Ballet RM 550979
+- Vitor Eduardo Moura RM 98450
+- Vitor Guido Kallas RM 551067
